@@ -45,8 +45,8 @@ function TableData (){
             <TableCell style={{cursor:'pointer'}} onClick={()=>sortingOnClickHandler("country",!sorting.ascending)}>Country</TableCell>
             <TableCell>Country Code</TableCell>
             <TableCell>Domains</TableCell>
-            {/* <TableCell>Web_pages</TableCell>  
-            <TableCell>state_province</TableCell> */}
+            <TableCell>Web_pages</TableCell>  
+            <TableCell>state_province</TableCell>
                 
             </TableRow>
         </TableHead>
@@ -60,8 +60,8 @@ function TableData (){
                 <TableCell>{data.country}</TableCell>
                 <TableCell>{data.alpha_two_code}</TableCell>
                 <TableCell>{data.domains}</TableCell>
-                {/* <TableCell>{data.web_pages}</TableCell>
-                <TableCell>{data.state_province}</TableCell> */}
+                <TableCell>{data.web_pages}</TableCell>
+                <TableCell>{data.state_province}</TableCell>
                
             </TableRow>
                )
